@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment IV: Deck of Cards</title>
+    <script src="main.js" type="text/javascript"></script>
+      <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1>Deck of Cards</h1>
+    <h2 id="displayPlayerName">Ready to play?</h2>
+    <div class="pBox">
+    <input id="playerName" type="text" name="player" placeholder="Player name"value="">
+    <button id="makePlayer" type="button" name="button">Make player</button>
+    <button id="shuffle" type="button" name="button">Shuffle</button>
+  </div>
+  <div id="showDeck" class="pBox">
+    
+  </div>
+  <h5 id="handCardCount"></h5>
+  <div id="showCards" class="pBox">
+    
+  </div>
+  <h5 id="displayDiscarded">Discarded Cards:</h5>
+  <div class="pBox">
+  <button id="deal" type="button" name="button">deal</button>
+  
+  <form >
+    <p>Select a Card to Discard:</p>
+      <select id="discardForm" name="cards"></select>
+
+</form>
+    <button id="discard" type="button" name="button">discard</button>
+</div>
+
+    <div class="pBox">
+      <button id="showHand" type="button" name="button">Show Hand</button>
+      <button id="reset" type="button" name="button">reset deck</button>
+    </div>
+  
+    
+  
+  </body>
+</html>
